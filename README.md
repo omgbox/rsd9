@@ -2,7 +2,7 @@
 
 This application is a web server that acts as a torrent client, providing an HTTP API for streaming, file listing, metadata retrieval, and status checking of torrents.
 
-thanks to # thanks to https://github.com/anacrolix/torrent
+thanks to https://github.com/anacrolix/torrent
 
 ## Features
 
