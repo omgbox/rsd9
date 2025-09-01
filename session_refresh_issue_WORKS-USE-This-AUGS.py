@@ -25,9 +25,9 @@ STREAMS_BASE_DIR = os.path.join(os.getcwd(), "streams")
 SESSION_TIMEOUT_SECONDS = 45
 REAPER_INTERVAL_SECONDS = 30
 COMPLETED_SESSION_CLEANUP_SECONDS = 3600
-STATUS_API_URL = "https://rsd.ovh/status?url="
-STREAM_API_URL = "https://rsd.ovh/stream?url="
-FILES_API_URL = "https://rsd.ovh/files?url="
+STATUS_API_URL = "http://127.0.0.1/status?url="
+STREAM_API_URL = "http://127.0.0.1/stream?url="
+FILES_API_URL = "http://127.0.0.1/files?url="
 PROGRESS_POLL_INTERVAL_SECONDS = 2
 MAX_CONCURRENT_STREAMS = 4
 FFPROBE_TIMEOUT_SECONDS = 30
