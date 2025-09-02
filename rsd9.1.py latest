@@ -668,7 +668,7 @@ def init_app():
 def main():
     if not os.path.ismount(STREAMS_BASE_DIR):
         logging.warning(f"PERFORMANCE WARNING: Mount a RAM disk at {os.path.abspath(STREAMS_BASE_DIR)}")
-    port = int(os.environ.get("PORT", 8001))
+    port = int(os.environ.get("PORT", 8000))
     try:
         os.makedirs(STREAMS_BASE_DIR, exist_ok=True)
         web.run_app(init_app(), port=port)
