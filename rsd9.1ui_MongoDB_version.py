@@ -14,7 +14,7 @@ from urllib.parse import quote
 
 from aiohttp import web, ClientSession
 from MongoDB import MongoManager # Import the new MongoManager
-
+# ---install MongpoDB Terminal paste export MONGO_URI="mongodb://user:password@your_mongo_host:27017/your_database_name" ---
 # --- 1. Centralized Logging Configuration ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
