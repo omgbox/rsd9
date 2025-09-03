@@ -1,4 +1,4 @@
-# rsd Torrent Streaming Engine
+# rsd Torrent Streaming Engine + rsd9.1ui Web 
 
 This application is a web server that acts as a torrent client, providing an HTTP API for streaming, file listing, metadata retrieval, and status checking of torrents.
 
